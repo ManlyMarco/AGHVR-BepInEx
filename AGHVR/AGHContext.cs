@@ -34,6 +34,22 @@ namespace AGHVR
             }
         }
 
+        public bool ConfineMouse
+        {
+            get
+            {
+                return true;
+            }
+        }
+
+        public GUIType PreferredGUI
+        {
+            get
+            {
+                return GUIType.IMGUI;
+            }
+        }
+
         public bool GUIAlternativeSortingMode
         {
             get
@@ -47,6 +63,14 @@ namespace AGHVR
             get
             {
                 return 10000f;
+            }
+        }
+
+        public float NearClipPlane
+        {
+            get
+            {
+                return 0.01f;
             }
         }
 
