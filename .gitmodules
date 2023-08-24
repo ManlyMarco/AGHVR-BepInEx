@@ -1,3 +1,4 @@
 [submodule "VRGIN"]
 	path = VRGIN
-	url = https://github.com/Eusth/VRGIN.git
+	url = https://github.com/ManlyMarco/VRGIN_OpenXR.git
+	branch = AGHVR
